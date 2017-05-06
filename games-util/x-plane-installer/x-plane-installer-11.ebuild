@@ -9,31 +9,29 @@ SRC_URI="http://www.x-plane.com/update/installers11/X-Plane11InstallerLinux.zip"
 
 LICENSE="X-Plane"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="-* ~amd64"
 IUSE=""
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	dev-libs/expat
-	dev-libs/libbsd
-	media-libs/glu
-	media-libs/mesa
-	sys-devel/gcc
-	sys-libs/glibc
-	x11-libs/libdrm
-	x11-libs/libX11
-	x11-libs/libXau
-	x11-libs/libxcb
-	x11-libs/libXcursor
-	x11-libs/libXdamage
-	x11-libs/libXdmcp
-	x11-libs/libXext
-	x11-libs/libXfixes
-	x11-libs/libXinerama
-	x11-libs/libXrandr
-	x11-libs/libXrender
-	x11-libs/libxshmfence
-	x11-libs/libXxf86vm
+	dev-libs/expat[abi_x86_64]
+	dev-libs/libbsd[abi_x86_64]
+	media-libs/glu[abi_x86_64]
+	media-libs/mesa[abi_x86_64]
+	x11-libs/libdrm[abi_x86_64]
+	x11-libs/libX11[abi_x86_64]
+	x11-libs/libXau[abi_x86_64]
+	x11-libs/libxcb[abi_x86_64]
+	x11-libs/libXcursor[abi_x86_64]
+	x11-libs/libXdamage[abi_x86_64]
+	x11-libs/libXdmcp[abi_x86_64]
+	x11-libs/libXext[abi_x86_64]
+	x11-libs/libXfixes[abi_x86_64]
+	x11-libs/libXinerama[abi_x86_64]
+	x11-libs/libXrandr[abi_x86_64]
+	x11-libs/libXrender[abi_x86_64]
+	x11-libs/libxshmfence[abi_x86_64]
+	x11-libs/libXxf86vm[abi_x86_64]
 "
 
 S="${WORKDIR}"
