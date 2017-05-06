@@ -11,21 +11,21 @@ SRC_URI="http://download.navigraph.com/software/fmsdatamanager/${P}.amd64.deb"
 
 LICENSE="all-rights-reserved"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="-* ~amd64"
 IUSE=""
 
 RESTRICT="mirror"
 
 DEPEND=""
 RDEPEND="${DEPEND}
-	x11-libs/libxcb
-	media-libs/mesa
-	sys-libs/zlib
-	dev-qt/qtcore:5/5.7
-	dev-qt/qtgui:5/5.7
-	dev-qt/qtnetwork:5/5.7
-	dev-qt/qtxml:5/5.7
-	dev-qt/qtwidgets:5/5.7"
+	x11-libs/libxcb[abi_x86_64]
+	media-libs/mesa[abi_x86_64]
+	sys-libs/zlib[abi_x86_64]
+	dev-qt/qtcore:5/5.7[abi_x86_64]
+	dev-qt/qtgui:5/5.7[abi_x86_64]
+	dev-qt/qtnetwork:5/5.7[abi_x86_64]
+	dev-qt/qtxml:5/5.7[abi_x86_64]
+	dev-qt/qtwidgets:5/5.7[abi_x86_64]"
 
 S="${WORKDIR}"
 
