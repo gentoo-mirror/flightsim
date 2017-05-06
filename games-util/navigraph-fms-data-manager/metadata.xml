@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<longdescription>
+		Navigraph FMS Data Manager is a client software which allows you
+		to effortlessly download and install FMS Data for your flight
+		simulation addons and tools.
+	</longdescription>
+</pkgmetadata>
