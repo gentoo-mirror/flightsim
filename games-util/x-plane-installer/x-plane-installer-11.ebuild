@@ -38,6 +38,8 @@ S="${WORKDIR}"
 
 QA_PREBUILT="opt/bin/${PN}"
 
+RESTRICT="mirror"
+
 src_install() {
 	exeinto /opt/bin
 	newexe "X-Plane 11 Installer Linux" "${PN}"
