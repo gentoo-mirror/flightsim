@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst postrm unpack
+DESCRIPTION=Client for Navigraph FMS Data
+EAPI=6
+HOMEPAGE=http://www.navigraph.com/
+KEYWORDS=-* ~amd64
+LICENSE=all-rights-reserved
+RDEPEND=x11-libs/libxcb[abi_x86_64] media-libs/mesa[abi_x86_64] sys-libs/zlib[abi_x86_64] dev-qt/qtcore:5/5.7[abi_x86_64] dev-qt/qtgui:5/5.7[abi_x86_64] dev-qt/qtnetwork:5/5.7[abi_x86_64] dev-qt/qtxml:5/5.7[abi_x86_64] dev-qt/qtwidgets:5/5.7[abi_x86_64]
+RESTRICT=mirror
+SLOT=0
+SRC_URI=http://download.navigraph.com/software/fmsdatamanager/navigraph-fms-data-manager-1.6.1.1129.amd64.deb
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:unpacker src_install:-
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	unpacker	f40f7b4bd5aa88c2a4ba7b0d1e0ded70	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
+_md5_=0d17765d0c2c0e89baf5afa2e95bbcf7
