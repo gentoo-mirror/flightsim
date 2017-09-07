@@ -8,5 +8,4 @@ RDEPEND=dev-libs/expat[abi_x86_64] dev-libs/libbsd[abi_x86_64] media-libs/glu[ab
 RESTRICT=mirror
 SLOT=0
 SRC_URI=http://www.x-plane.com/update/installers11/X-Plane11InstallerLinux.zip
-_eclass_exported_funcs=pkg_postinst:- src_install:-
 _md5_=8dd70571c48c77cf888b7b36630fad32

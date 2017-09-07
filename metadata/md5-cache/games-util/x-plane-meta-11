@@ -6,5 +6,4 @@ KEYWORDS=-* ~amd64
 LICENSE=metapackage
 RDEPEND=dev-libs/expat[abi_x86_64] dev-libs/libbsd[abi_x86_64] media-libs/glu[abi_x86_64] media-libs/mesa[abi_x86_64] x11-libs/libdrm[abi_x86_64] x11-libs/libX11[abi_x86_64] x11-libs/libXau[abi_x86_64] x11-libs/libxcb[abi_x86_64] x11-libs/libXcursor[abi_x86_64] x11-libs/libXdamage[abi_x86_64] x11-libs/libXdmcp[abi_x86_64] x11-libs/libXext[abi_x86_64] x11-libs/libXfixes[abi_x86_64] x11-libs/libXinerama[abi_x86_64] x11-libs/libXrandr[abi_x86_64] x11-libs/libXrender[abi_x86_64] x11-libs/libxshmfence[abi_x86_64] x11-libs/libXxf86vm[abi_x86_64]
 SLOT=0
-_eclass_exported_funcs=pkg_postinst:-
 _md5_=fef610aee55d8532ccfb8dfa29c97d7c
